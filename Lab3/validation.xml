@@ -1,0 +1,408 @@
+<experiments>
+  <experiment name="ga1" repetitions="1" runMetricsEveryStep="true">
+    <setup>let saved-seed validation-seed random-seed saved-seed setup set validation-seed saved-seed</setup>
+    <go>search-step</go>
+    <final>if validation-seed = 30001 [ export-view "images/model-ga1.png" ]</final>
+    <timeLimit steps="100" />
+    <metric>ticks</metric>
+    <metric>count people</metric>
+    <metric>count trees</metric>
+    <metric>sum [pollution] of patches</metric>
+    <metric>policy-loss</metric>
+    <enumeratedValueSet variable="initial-population">
+      <value value="40.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="birth-rate">
+      <value value="0.085" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="planting-rate">
+      <value value="0.045" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="power-plants">
+      <value value="10.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="polluting-rate">
+      <value value="3.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="validation-seed">
+      <value value="30001" />
+      <value value="30002" />
+      <value value="30003" />
+      <value value="30004" />
+      <value value="30005" />
+      <value value="30006" />
+      <value value="30007" />
+      <value value="30008" />
+      <value value="30009" />
+      <value value="30010" />
+      <value value="30011" />
+      <value value="30012" />
+      <value value="30013" />
+      <value value="30014" />
+      <value value="30015" />
+      <value value="30016" />
+      <value value="30017" />
+      <value value="30018" />
+      <value value="30019" />
+      <value value="30020" />
+      <value value="30021" />
+      <value value="30022" />
+      <value value="30023" />
+      <value value="30024" />
+      <value value="30025" />
+      <value value="30026" />
+      <value value="30027" />
+      <value value="30028" />
+      <value value="30029" />
+      <value value="30030" />
+    </enumeratedValueSet>
+  </experiment>
+  <experiment name="ga2" repetitions="1" runMetricsEveryStep="true">
+    <setup>let saved-seed validation-seed random-seed saved-seed setup set validation-seed saved-seed</setup>
+    <go>search-step</go>
+    <final>if validation-seed = 30001 [ export-view "images/model-ga2.png" ]</final>
+    <timeLimit steps="100" />
+    <metric>ticks</metric>
+    <metric>count people</metric>
+    <metric>count trees</metric>
+    <metric>sum [pollution] of patches</metric>
+    <metric>policy-loss</metric>
+    <enumeratedValueSet variable="initial-population">
+      <value value="50.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="birth-rate">
+      <value value="0.085" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="planting-rate">
+      <value value="0.035" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="power-plants">
+      <value value="10.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="polluting-rate">
+      <value value="3.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="validation-seed">
+      <value value="30001" />
+      <value value="30002" />
+      <value value="30003" />
+      <value value="30004" />
+      <value value="30005" />
+      <value value="30006" />
+      <value value="30007" />
+      <value value="30008" />
+      <value value="30009" />
+      <value value="30010" />
+      <value value="30011" />
+      <value value="30012" />
+      <value value="30013" />
+      <value value="30014" />
+      <value value="30015" />
+      <value value="30016" />
+      <value value="30017" />
+      <value value="30018" />
+      <value value="30019" />
+      <value value="30020" />
+      <value value="30021" />
+      <value value="30022" />
+      <value value="30023" />
+      <value value="30024" />
+      <value value="30025" />
+      <value value="30026" />
+      <value value="30027" />
+      <value value="30028" />
+      <value value="30029" />
+      <value value="30030" />
+    </enumeratedValueSet>
+  </experiment>
+  <experiment name="ga3" repetitions="1" runMetricsEveryStep="true">
+    <setup>let saved-seed validation-seed random-seed saved-seed setup set validation-seed saved-seed</setup>
+    <go>search-step</go>
+    <final>if validation-seed = 30001 [ export-view "images/model-ga3.png" ]</final>
+    <timeLimit steps="100" />
+    <metric>ticks</metric>
+    <metric>count people</metric>
+    <metric>count trees</metric>
+    <metric>sum [pollution] of patches</metric>
+    <metric>policy-loss</metric>
+    <enumeratedValueSet variable="initial-population">
+      <value value="30.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="birth-rate">
+      <value value="0.085" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="planting-rate">
+      <value value="0.05" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="power-plants">
+      <value value="10.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="polluting-rate">
+      <value value="3.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="validation-seed">
+      <value value="30001" />
+      <value value="30002" />
+      <value value="30003" />
+      <value value="30004" />
+      <value value="30005" />
+      <value value="30006" />
+      <value value="30007" />
+      <value value="30008" />
+      <value value="30009" />
+      <value value="30010" />
+      <value value="30011" />
+      <value value="30012" />
+      <value value="30013" />
+      <value value="30014" />
+      <value value="30015" />
+      <value value="30016" />
+      <value value="30017" />
+      <value value="30018" />
+      <value value="30019" />
+      <value value="30020" />
+      <value value="30021" />
+      <value value="30022" />
+      <value value="30023" />
+      <value value="30024" />
+      <value value="30025" />
+      <value value="30026" />
+      <value value="30027" />
+      <value value="30028" />
+      <value value="30029" />
+      <value value="30030" />
+    </enumeratedValueSet>
+  </experiment>
+  <experiment name="rs1" repetitions="1" runMetricsEveryStep="true">
+    <setup>let saved-seed validation-seed random-seed saved-seed setup set validation-seed saved-seed</setup>
+    <go>search-step</go>
+    <final>if validation-seed = 30001 [ export-view "images/model-rs1.png" ]</final>
+    <timeLimit steps="100" />
+    <metric>ticks</metric>
+    <metric>count people</metric>
+    <metric>count trees</metric>
+    <metric>sum [pollution] of patches</metric>
+    <metric>policy-loss</metric>
+    <enumeratedValueSet variable="initial-population">
+      <value value="30.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="birth-rate">
+      <value value="0.085" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="planting-rate">
+      <value value="0.05" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="power-plants">
+      <value value="10.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="polluting-rate">
+      <value value="3.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="validation-seed">
+      <value value="30001" />
+      <value value="30002" />
+      <value value="30003" />
+      <value value="30004" />
+      <value value="30005" />
+      <value value="30006" />
+      <value value="30007" />
+      <value value="30008" />
+      <value value="30009" />
+      <value value="30010" />
+      <value value="30011" />
+      <value value="30012" />
+      <value value="30013" />
+      <value value="30014" />
+      <value value="30015" />
+      <value value="30016" />
+      <value value="30017" />
+      <value value="30018" />
+      <value value="30019" />
+      <value value="30020" />
+      <value value="30021" />
+      <value value="30022" />
+      <value value="30023" />
+      <value value="30024" />
+      <value value="30025" />
+      <value value="30026" />
+      <value value="30027" />
+      <value value="30028" />
+      <value value="30029" />
+      <value value="30030" />
+    </enumeratedValueSet>
+  </experiment>
+  <experiment name="rs2" repetitions="1" runMetricsEveryStep="true">
+    <setup>let saved-seed validation-seed random-seed saved-seed setup set validation-seed saved-seed</setup>
+    <go>search-step</go>
+    <final>if validation-seed = 30001 [ export-view "images/model-rs2.png" ]</final>
+    <timeLimit steps="100" />
+    <metric>ticks</metric>
+    <metric>count people</metric>
+    <metric>count trees</metric>
+    <metric>sum [pollution] of patches</metric>
+    <metric>policy-loss</metric>
+    <enumeratedValueSet variable="initial-population">
+      <value value="50.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="birth-rate">
+      <value value="0.09" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="planting-rate">
+      <value value="0.025" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="power-plants">
+      <value value="10.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="polluting-rate">
+      <value value="3.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="validation-seed">
+      <value value="30001" />
+      <value value="30002" />
+      <value value="30003" />
+      <value value="30004" />
+      <value value="30005" />
+      <value value="30006" />
+      <value value="30007" />
+      <value value="30008" />
+      <value value="30009" />
+      <value value="30010" />
+      <value value="30011" />
+      <value value="30012" />
+      <value value="30013" />
+      <value value="30014" />
+      <value value="30015" />
+      <value value="30016" />
+      <value value="30017" />
+      <value value="30018" />
+      <value value="30019" />
+      <value value="30020" />
+      <value value="30021" />
+      <value value="30022" />
+      <value value="30023" />
+      <value value="30024" />
+      <value value="30025" />
+      <value value="30026" />
+      <value value="30027" />
+      <value value="30028" />
+      <value value="30029" />
+      <value value="30030" />
+    </enumeratedValueSet>
+  </experiment>
+  <experiment name="rs3" repetitions="1" runMetricsEveryStep="true">
+    <setup>let saved-seed validation-seed random-seed saved-seed setup set validation-seed saved-seed</setup>
+    <go>search-step</go>
+    <final>if validation-seed = 30001 [ export-view "images/model-rs3.png" ]</final>
+    <timeLimit steps="100" />
+    <metric>ticks</metric>
+    <metric>count people</metric>
+    <metric>count trees</metric>
+    <metric>sum [pollution] of patches</metric>
+    <metric>policy-loss</metric>
+    <enumeratedValueSet variable="initial-population">
+      <value value="30.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="birth-rate">
+      <value value="0.09" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="planting-rate">
+      <value value="0.065" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="power-plants">
+      <value value="10.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="polluting-rate">
+      <value value="3.0" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="validation-seed">
+      <value value="30001" />
+      <value value="30002" />
+      <value value="30003" />
+      <value value="30004" />
+      <value value="30005" />
+      <value value="30006" />
+      <value value="30007" />
+      <value value="30008" />
+      <value value="30009" />
+      <value value="30010" />
+      <value value="30011" />
+      <value value="30012" />
+      <value value="30013" />
+      <value value="30014" />
+      <value value="30015" />
+      <value value="30016" />
+      <value value="30017" />
+      <value value="30018" />
+      <value value="30019" />
+      <value value="30020" />
+      <value value="30021" />
+      <value value="30022" />
+      <value value="30023" />
+      <value value="30024" />
+      <value value="30025" />
+      <value value="30026" />
+      <value value="30027" />
+      <value value="30028" />
+      <value value="30029" />
+      <value value="30030" />
+    </enumeratedValueSet>
+  </experiment>
+  <experiment name="control" repetitions="1" runMetricsEveryStep="true">
+    <setup>let saved-seed validation-seed random-seed saved-seed setup set validation-seed saved-seed</setup>
+    <go>search-step</go>
+    <final>if validation-seed = 30001 [ export-view "images/model-control.png" ]</final>
+    <timeLimit steps="100" />
+    <metric>ticks</metric>
+    <metric>count people</metric>
+    <metric>count trees</metric>
+    <metric>sum [pollution] of patches</metric>
+    <metric>policy-loss</metric>
+    <enumeratedValueSet variable="initial-population">
+      <value value="100" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="birth-rate">
+      <value value="0.1" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="planting-rate">
+      <value value="0.05" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="power-plants">
+      <value value="10" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="polluting-rate">
+      <value value="3" />
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="validation-seed">
+      <value value="30001" />
+      <value value="30002" />
+      <value value="30003" />
+      <value value="30004" />
+      <value value="30005" />
+      <value value="30006" />
+      <value value="30007" />
+      <value value="30008" />
+      <value value="30009" />
+      <value value="30010" />
+      <value value="30011" />
+      <value value="30012" />
+      <value value="30013" />
+      <value value="30014" />
+      <value value="30015" />
+      <value value="30016" />
+      <value value="30017" />
+      <value value="30018" />
+      <value value="30019" />
+      <value value="30020" />
+      <value value="30021" />
+      <value value="30022" />
+      <value value="30023" />
+      <value value="30024" />
+      <value value="30025" />
+      <value value="30026" />
+      <value value="30027" />
+      <value value="30028" />
+      <value value="30029" />
+      <value value="30030" />
+    </enumeratedValueSet>
+  </experiment>
+</experiments>
